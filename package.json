@@ -31,7 +31,8 @@
     "eject": "react-scripts eject"
   },
   "browser": {
-    "fs": false
+    "fs": false,
+    "crypto": false
   },
   "eslintConfig": {
     "extends": [
