@@ -1,13 +1,13 @@
-const { connection } = require('./conn')
+// const { connection } = require('./conn')
 import { Modal } from 'antd'
 import React from 'react'
 const { confirm } = Modal
-connection.connect((err) => {
-  if (err) {
-    console.log("数据库连接失败")
-  }
-  console.log("数据库连接成功")
-})
+// connection.connect((err) => {
+//   if (err) {
+//     console.log("数据库连接失败")
+//   }
+//   console.log("数据库连接成功")
+// })
 
 class Tan extends React.Component {
   state = {
