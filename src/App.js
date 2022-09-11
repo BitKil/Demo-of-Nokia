@@ -61,7 +61,7 @@ const App = () => {
   }
   const showOne = () => {
     Modal.info({
-      title: '请输入您的信息',
+      title: '请输入您的信息:',
       content: (
         <Tan getSonMsg={getSonMsg} />
       ),
