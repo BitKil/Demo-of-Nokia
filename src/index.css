@@ -22,20 +22,68 @@ code {
 }
 .item {
   border: 1px dotted;
-  background-color: red;
   height: 250px;
   width: 160px;
   margin: 5px;
 }
-.one {
+.oneTrue {
   background: yellow;
 }
-.two {
+div#ass {
+  border: solid 1px;
+  height: 20px;
+  text-align: left;
+}
+div#grade {
+  height: 20px;
+  border: solid 1px;
+}
+.oneFalse {
+  background: gray;
+}
+.twoTrue {
   background-color: darkblue;
+  color: white;
 }
-.three {
+.twoTrue > h2 {
+  color: white;
+}
+.item > .Why {
+  height: 80px;
+}
+.twoFalse {
+  background-color: gray;
+}
+.threeTrue {
   background-color: orange;
+  color: white;
 }
-.four {
+.threeTrue > h2 {
+  color: white;
+}
+div > .rootap {
+  height: 80px;
+}
+.threeFalse {
+  background-color: gray;
+}
+.fourTrue {
   background-color: green;
+  color: white;
+}
+.fourTrue > h2 {
+  color: white;
+}
+.fourTrue > .rootap > h4 {
+  color: white;
+}
+.fourTrue > label {
+  color: white;
+}
+.fourFalse {
+  background-color: gray;
+}
+hr {
+  border: solid 0.5px;
+  color: black;
 }
